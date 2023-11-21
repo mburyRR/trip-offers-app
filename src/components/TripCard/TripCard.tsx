@@ -27,7 +27,7 @@ export const TripCard: FC<TripCardProps> = ({ trip, onClick }) => {
           bgSize="cover"
           position="absolute"
           borderRadius="lg"
-          opacity="0.7"
+          opacity={0.7}
           top={2}
           left={2}
           zIndex={2}
@@ -80,6 +80,7 @@ export const TripCard: FC<TripCardProps> = ({ trip, onClick }) => {
           <Button
             onClick={() => onClick(trip)}
             colorScheme="blue"
+            fontWeight={500}
             size="md"
             data-testid="learn-more-button"
           >

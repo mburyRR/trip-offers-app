@@ -27,9 +27,9 @@ export const TripPage: FC = () => {
     return (
       <Container maxW="container.xl" py={5}>
         <Stack py={5} gap={5} data-testid="trip-page-skeleton">
-          <Skeleton height="10vh" borderRadius={6} />
-          <Skeleton height="30vh" borderRadius={6} />
-          <Skeleton height="40vh" borderRadius={6} />
+          <Skeleton h="10vh" borderRadius={6} />
+          <Skeleton h="30vh" borderRadius={6} />
+          <Skeleton h="40vh" borderRadius={6} />
         </Stack>
       </Container>
     );

@@ -31,7 +31,7 @@ export const Homepage: FC = () => {
       <Container maxW="container.xl">
         <Stack py={5} gap={6} data-testid="homepage-skeleton">
           {Array.from({ length: 5 }, (_, index) => (
-            <Skeleton key={index} height={300} mx={4} borderRadius="xl" />
+            <Skeleton key={index} h={300} mx={4} borderRadius="xl" />
           ))}
         </Stack>
       </Container>
